@@ -29,7 +29,7 @@ public class IntToBinary {
 
         System.out.println(" the Binary of 5 is "+Integer.toBinaryString(5));
         System.out.println(5<<2);
-        System.out.println(" the Binary of  5<<2 is "+Integer.toBinaryString(5<<2) );
+        System.out.println(" the Binary of  5<<30 is "+Integer.toBinaryString(5<<30) );
         System.out.println("============================================");
         System.out.println("5的原码是："+Integer.toBinaryString(5));
         System.out.println("5的反码是："+Integer.toBinaryString(~5));
