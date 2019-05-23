@@ -1,4 +1,4 @@
-package mytest.ch1.ch4.template;
+package mytest.ch4.template;
 
 import java.util.Date;
 

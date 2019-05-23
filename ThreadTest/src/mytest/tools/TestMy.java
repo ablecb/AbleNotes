@@ -1,4 +1,4 @@
-package mytest.ch1.tools;
+package mytest.tools;
 
 /**
  * @ClassName TestMy

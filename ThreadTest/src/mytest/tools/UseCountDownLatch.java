@@ -1,9 +1,8 @@
-package mytest.ch1.tools;
+package mytest.tools;
 
 
 
 import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.TimeUnit;
 
 /**
  * @ClassName UseCountDownLatch

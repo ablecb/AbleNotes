@@ -1,4 +1,4 @@
-package mytest.ch1;
+package mytest;
 
 import java.util.Random;
 import java.util.concurrent.Callable;

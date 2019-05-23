@@ -1,6 +1,4 @@
-package mytest.ch1.tools;
-
-import com.sun.org.apache.bcel.internal.generic.NEW;
+package mytest.tools;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;

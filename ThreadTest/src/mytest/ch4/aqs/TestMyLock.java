@@ -1,6 +1,5 @@
-package mytest.ch1.ch4.aqs;
+package mytest.ch4.aqs;
 
-import java.nio.channels.NonWritableChannelException;
 import java.util.concurrent.locks.Lock;
 
 /**

@@ -1,4 +1,4 @@
-package mytest.ch1.ch4.aqs;
+package mytest.ch4.aqs;
 
 import com.sun.corba.se.impl.orbutil.concurrent.Sync;
 

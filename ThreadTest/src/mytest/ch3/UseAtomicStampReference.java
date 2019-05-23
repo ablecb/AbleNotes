@@ -1,4 +1,4 @@
-package mytest.ch1.ch3;
+package mytest.ch3;
 
 import java.util.concurrent.atomic.AtomicStampedReference;
 

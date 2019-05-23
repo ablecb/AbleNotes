@@ -1,4 +1,4 @@
-package mytest.ch1.ch4;
+package mytest.ch4;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;

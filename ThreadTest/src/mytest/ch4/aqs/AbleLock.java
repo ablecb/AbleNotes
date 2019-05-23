@@ -1,4 +1,4 @@
-package mytest.ch1.ch4.aqs;
+package mytest.ch4.aqs;
 
 
 
@@ -14,11 +14,13 @@ import java.util.concurrent.atomic.AtomicReference;
 public class AbleLock {
     AtomicReference<Thread> reference=new AtomicReference<Thread>();
     Thread thread=null;
-    public void lock(){
-        thread=Thread.currentThread();
-        reference.compareAndSet(null,thread);
+    public void lock() {
+        thread = Thread.currentThread();
+        if (reference.get() == null) {
+            reference.compareAndSet(null, thread);
+        }
     }
     public void unlock(){
-        reference.compareAndSet(thread,null);
+        reference.set(null);
     }
 }

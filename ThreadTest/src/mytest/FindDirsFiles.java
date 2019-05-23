@@ -1,4 +1,4 @@
-package mytest.ch1;
+package mytest;
 
 import java.io.File;
 import java.util.ArrayList;

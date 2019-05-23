@@ -1,6 +1,6 @@
-package mytest.ch1.ch4.aqs;
+package mytest.ch4.aqs;
 
-import javax.swing.plaf.nimbus.State;
+
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 import java.util.concurrent.locks.Condition;
