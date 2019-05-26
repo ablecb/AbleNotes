@@ -7,10 +7,15 @@ package mytest.tools;
  * @Date 2019/5/21 11:19
  * @Version 1.0
  */
-public class TestMy {
+public class TestMy implements  Runnable{
     public static void main(String[] args) {
         MySemaphore.semaphore.release();
         MySemaphore.semaphore.release();
         System.out.println(MySemaphore.semaphore.availablePermits());
+    }
+
+    @Override
+    public void run() {
+
     }
 }
