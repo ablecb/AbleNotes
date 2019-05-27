@@ -1,5 +1,7 @@
 package mytest.ch6.mypool;
 
+import mytest.ch6.mypool.MyThreadPool2;
+
 import java.util.Random;
 
 /**
