@@ -16,9 +16,11 @@ public class SafeOperateToo implements ITransfer {
         while(true){
             if(from.getLock().tryLock()){
                 try{
+                    System.out.println(Thread.currentThread().getName()+" get "+ from.getName());
                     if(to.getLock().tryLock()){
                         try{
                             //两把锁都拿到了
+                            System.out.println(Thread.currentThread().getName()+" get "+ to.getName());
                             from.flyMoney(amount);
                             from.addMoney(amount);
                             break;
@@ -34,7 +36,7 @@ public class SafeOperateToo implements ITransfer {
                     from.getLock().unlock();
                 }
             }
-            Thread.currentThread().sleep(random.nextInt(10));
+           // Thread.currentThread().sleep(random.nextInt(10));
         }
     }
 }
